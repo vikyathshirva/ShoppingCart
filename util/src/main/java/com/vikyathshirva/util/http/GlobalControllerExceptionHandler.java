@@ -3,11 +3,7 @@ package com.vikyathshirva.util.http;
 import org.slf4j.Logger;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.server.reactive.ServerHttpRequest;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import com.vik
-
-import com.sun.org.slf4j.internal.LoggerFactory;
 
 /**
  * GlobalControllerExceptionHandler
@@ -19,14 +15,8 @@ public class GlobalControllerExceptionHandler {
 
 
 
-    @ResponseStatus(UNPROCESSABLE_ENTITY)
-    @ExceptionHandler()
-    public HttpErrorInfo handleInvalidInputException(
-        ServerHttpRequest request, InvalidINputException ex
-    ){
 
 
-    }
 
 
     private HttpErrorInfo createHttpErrorInfo(
