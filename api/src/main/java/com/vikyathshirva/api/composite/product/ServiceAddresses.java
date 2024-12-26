@@ -1,4 +1,4 @@
-package com.vikyathshirva.api.core.composite.product;
+package com.vikyathshirva.api.composite.product;
 
 /**
  * ServiceAddresses

@@ -1,4 +1,4 @@
-package com.vikyathshirva.api.core.exceptions;
+package com.vikyathshirva.api.exceptions;
 
 /**
  * NotFoundException
